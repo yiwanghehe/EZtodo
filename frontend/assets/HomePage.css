@@ -1,0 +1,25 @@
+.home-container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.custom-button {
+    padding: 12px 24px;
+    background-color: #4CAF50; /* 绿色 [[1]] */
+    border: none;
+    color: white;
+    border-radius: 8px; /* 圆角 [[1]] */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
